@@ -5,7 +5,6 @@
 ## to calculate repeatedly
 
 ## Creates cacheMatrix object
-
 makeCacheMatrix <- function(x = matrix()) {
   cachedInverse <- NULL
   set <- function(y) {
@@ -22,7 +21,6 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Returns the inverse cacheMatrix object
-
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
   invFunc <- x$getInverse()
